@@ -11,4 +11,25 @@ export const {
   css,
   prefix,
   reset,
-} = createStitches({})
+} = createStitches({
+  theme: {
+    colors: {
+      brand100: '#00B37E',
+      brand200: '#00875F',
+
+      white: '#FFFFFF',
+
+      gray100: '#CCCCCC',
+      gray200: '#333333',
+
+      black: '#000000',
+    },
+    fonts: {
+      roboto: 'Roboto',
+    },
+    fontWeights: {
+      regular: 400,
+      bold: 700,
+    },
+  },
+})
