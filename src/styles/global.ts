@@ -21,6 +21,18 @@ export const globalStyles = globalCss({
     backgroundColor: '$black',
   },
 
+  '@media (max-width: 1024px)': {
+    html: {
+      fontSize: '93.75%',
+    }
+  },
+
+  '@media (max-width: 768px)': {
+    html: {
+      fontSize: '87.5%',
+    }
+  },
+
   'ul, ol': {
     listStyle: 'none',
   },
