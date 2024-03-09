@@ -1,5 +1,5 @@
 import { Header } from '@/components'
-import { Container } from '@/styles/components/container'
+import { Container } from '@/styles/pages/app'
 import { globalStyles } from '@/styles/global'
 import type { AppProps } from 'next/app'
 
